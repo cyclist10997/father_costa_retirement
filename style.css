@@ -20,3 +20,26 @@ footer{padding:24px 16px 40px}
 .schedule ul { margin:6px 0 0 18px; padding:0; }
 .schedule li { margin:3px 0; }
 .line{color:#cbd5e1}
+/* Make the entire About section text white */
+#about {
+  color: #ffffff;
+}
+
+/* Ensure headings and body text are white */
+#about h2,
+#about p,
+#about li,
+#about em,
+#about strong,
+#about .small {
+  color: #ffffff;
+}
+
+/* Optional: make links white too (and a subtle hover) */
+#about a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+#about a:hover {
+  opacity: 0.85;
+}
